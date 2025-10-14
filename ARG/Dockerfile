@@ -1,3 +1,5 @@
 FROM almalinux:9
-ARG COURSE="devops" \
+ENV COURSE="devops" \
     TRAINER="Siva Kumar"
+ARG STUDENT="vidya"
+CMD ["sleep", "1000"]
