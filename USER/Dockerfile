@@ -4,4 +4,4 @@ RUN dnf install nginx -y
 RUN useradd sagar
 USER sagar
 
-CMD ["nginx" "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
